@@ -1,6 +1,9 @@
 
 const authtoken = "***REMOVED***";
 const organization_uid = "***REMOVED***";
+const access_token = ***REMOVED***;
+const password = "***REMOVED***";
+const user_password = "***REMOVED***";
 
 console.log({ authtoken, organization_uid });
 
