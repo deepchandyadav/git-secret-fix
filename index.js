@@ -1,13 +1,13 @@
 
 const authtoken = "removed";
-const orgid = "removed";
+const organization_uid = "removed";
 
+console.log({ authtoken, organization_uid });
 
-console.log({authtoken, orgid});
-
-
-fetch("http://google.com").then(res => {
-  console.log("fetch google", authtoken);
-}).catch(err => {
-  console.log("handle error");
-})
+fetch("http://google.com")
+  .then((res) => {
+    console.log("fetch google", authtoken);
+  })
+  .catch((err) => {
+    console.log("handle error");
+  });
