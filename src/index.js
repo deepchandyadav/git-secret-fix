@@ -1,7 +1,7 @@
 
 const authtoken = "removed";
 const organization_uid = "removed";
-const access_token = removed;
+const access_token = "removed";
 const password = "removed";
 const user_password = "removed";
 
